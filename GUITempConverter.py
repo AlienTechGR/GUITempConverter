@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter
 def ConvertToC():
     Far = float(TextBox1.get())
     Cel = (Far - 32) * 5/9
